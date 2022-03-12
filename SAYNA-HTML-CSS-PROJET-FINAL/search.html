@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- navigation -->
+
+    <nav class="navbar navbar-expand-md navbar-light d-flex justify-content-between sticky-top" style="background-color: #d35649;">
+        <div class="logo"> <img src="img/group-2.svg" alt="logo" width="100">
+            <a href="index.html"><span class="align-middle" style="color: white; font-weight: 500;
+            font-size: xx-large;">[Events]</span></a>
+        </div>
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0 px-3">
+            <li class="nav-item "><a class="nav-link text-light px-3 "  href="search.html"><i class="bi bi-search " style="color: white; "></i>  Search</a>
+            </li>
+            <li class="nav-item "><a class="nav-link text-light px-3 "  href="about.html"><i class="bi bi-person" style="color: white; "></i> About</a>
+            </li>
+            <li class="nav-item ">
+            <a class="nav-link text-light px-3 "  href="# "><i class="bi bi-wifi " style="color: white; "></i>  Blog</a>
+            </li>
+            <li class="nav-item "><a class="nav-link text-light px-3 " href="# "><i class="bi bi-list " style="color: white;"></i>  More</a></li>
+        </ul>
+  </nav>
+  
+  <!-- Fin du navigation -->
+
+ <div class="container-fluid vide" style="background-color: #fff; margin: 30px;"></div>
+
+  <!-- Formulaire -->
+
+  <section class="container-fluid formulaire" style="background-color: #eee;">
+      <div class="text text-center" style="text-align: center; color:rgb(131, 126, 126);"><h1>Filter by location, host, subject, date, daytime:</h1></div>
+      <br>
+      <div class="container" style="padding: 10px;">
+         <form class="row gy-2 gx-3 align-items-center">
+            <div class="col-auto" style="width: 10%;">
+                <div class="text"><p>Location</p></div>
+              <label class="visually-hidden" for="autoSizingInput">location</label>
+              <input type="text" class="form-control" id="autoSizingInput" placeholder="">
+            </div>
+    
+            <div class="col-auto" style="width: 10%;">
+                <div class="text"><p>Host</p></div>
+              <label class="visually-hidden" for="autoSizingInput">Host</label>
+              <input type="text" class="form-control" id="autoSizingInput" placeholder="">
+            </div>
+           
+            <div class="col-auto" style="width: 10%;">
+                <div class="text"><p>Subject</p></div>
+              <label class="visually-hidden" for="autoSizingInput">Subject</label>
+              <input type="text" class="form-control" id="autoSizingInput" placeholder="">
+            </div>
+    
+            <div class="col-auto">
+                <div class="text"><p>Initial date</p></div>
+              <label class="visually-hidden" for="autoSizingInput">date</label>
+              <input type="text" class="form-control" id="autoSizingInput" placeholder="06/18/2020">
+            </div>
+    
+            <div class="col-auto">
+                <div class="text"><p>Final date</p></div>
+              <label class="visually-hidden" for="autoSizingInput">date</label>
+              <input type="text" class="form-control" id="autoSizingInput" placeholder="06/18/2020">
+            </div>
+    
+            <div class="col-auto">
+              <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+              <select class="form-select" id="autoSizingSelect">
+                <option selected>Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+    
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary" style="color:#fff;">Search</button>
+            </div>
+    
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary" style="color: #fff; background-color: rgb(250, 214, 9); border-color: rgb(255, 217, 0);">Clear Filter</button>
+            </div>
+          </form>
+      </div>
+  </section>
+
+  <!-- Fin du formulaire -->
+
+  <!-- Gallery -->
+
+  <section class="container-fluid" style="padding: 20px;">
+      <div class="container-fluid text" style="color: #444; text-align: center;"><h3>Search Result Found 7 [Events] Nearby.</h3></div>
+          <div class="row text-center">
+            <div class="col-md-4">
+                <div class="text" style="padding-top: -10px;"><p class="text text-center" style="color: #444;">go to [gathering] example</p></div>
+                <img src="img/group-2.svg" alt="" width="350" style="background-color: #d35649;">
+            </div>
+            <div class="col-md-4">
+              <p class="text text-center" style="color: #444;">go to [gathering] example</p>
+              <img src="img/group-2.svg" alt="" width="350" style="background-color: #d35649;">
+            </div>
+            <div class="col-md-4">
+              <p class="text text-center" style="color: #444;">go to [gathering] example</p>
+              <img src="img/group-2.svg" alt="" width="350" style="background-color: #d35649;">
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- Fin du gallery -->
+
+
+    <!-- Footer -->
+
+    <footer>
+        <section class="section little-footer" style="background-color:  #1f1f1f;">
+            <div class="container-fluid text-light text-center mx-auto pt-5 ">
+                <div class="row ">
+                    <div class="col-lg-1 ">
+                        <p><a href="index.html" style="color: #fff;">HOME</a></p>
+                    </div>
+                    <div class="col-lg-1 ">
+                        <p><a href="search.html" style="color: #fff;"> SEARCH </a></p>
+                    </div>
+                    <div class="col-lg-1 ">
+                        <p><a href="about.html" style="color: #fff;"> ABOUT US </a></p>
+                    </div>
+                    <div class="col-lg-1 ">
+                        <p><a href="#" style="color: #fff;">ADVERTISE</a></p>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <p><a href="#" style="color: #fff;">NAV</a></p>
+                    </div>
+                    <div class="col-lg-1 ">
+                        <p><a href="#" style="color: #fff;">FACEBOOK</a></p>
+                    </div>
+                    <div class="col-lg-1 ">
+                        <p><a href="#" style="color: #fff;">TWITTER</a></p>
+                    </div>
+                    <div class="col-lg-1 ">
+                        <p><a href="#" style="color: #fff;">INSTAGRAM</a></p>
+                    </div>
+                    <div class="col-lg-1 ">
+                        <p><a href="#" style="color: #fff;">LOG</a></p>
+                    </div>
+                </div>
+        </section>
+        <section class="principal-footer" style="background-color: #1f1f1f;">
+            <div class="container text-center text-light pt-5 ">
+                <div class="row ">
+                    <div class="col-md-4 ">
+                        <h2>Subscribe</h2>
+                        <div class="input-group ">
+                            <input type="text " class="form-control border-light rounded-0 bg-dark " placeholder="Insert your e-mail here ">
+                            <button class="btn btn-secondary " type="button ">Send</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <h2>Contact</h2>
+                        <p>Have a question or sugestion?</p>
+                        <a href="#" style="color: #d35649;">contact@Events.com</a>
+                    </div>
+                    <div class="col-md-4 ">
+                        <h2>About</h2>
+                        <p>[Events] is an online platform that works to improve and increase social life connections, when this nightmare that we are living in is over <a href="#" style="color: #d35649;">learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="contenair2 d-flex justify-content-between" style="background-color: #444;">
+              <div class="logo p-2">
+                  <img src="./img/Icones/facebook_icon.svg" alt="" width="25"style="filter: invert();">
+                  <img src="./img/Icones/twitter_icon.svg" alt="" width="25"style="filter: invert();">
+                  <img src="./img/Icones/instagram_icon.svg" alt="" width="25"style="filter: invert();">
+                  <img src="./img/Icones/tumblr_icon.svg" alt="" width="25"style="filter: invert();">
+                  <img src="./img/Icones/linkedin_icon.svg" alt="" width="25" style="filter: invert();">
+              </div>
+              <div class="copyright p-2">
+              <p style="color: white;">© 2020 {Events},Inc. All rights reserved</p>
+              </div>
+          </div>
+        </section>
+      </footer>
+      
+    <!-- End Footer -->
+
+</body>
+</html>    

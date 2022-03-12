@@ -1,0 +1,86 @@
+@charset "UTF8";
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #98a5a5;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+/* navigation */
+nav .navbar ul li a:hover{
+    color:#98a5a5;
+}
+.menu {
+    float: right;
+}
+
+.menu a{
+    color: #fff;
+    margin-right: 20px;
+}	
+
+.menu a:hover{
+    color: #98a5a5;
+}
+
+/* Bannière */
+
+.banner{
+    width: 100%;
+    max-width: 100%;
+}
+
+.Ban{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.Ban img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.inner-banner{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1{
+    color: #fff;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+.inner-banner .btn-custom{
+    background-color: #fff;
+    box-shadow: 10px;
+}
+
+.container-fluid .border{
+    margin-bottom: 3px;
+}
+.btn-outline-sucssess
+/* Plan */
+.article h2{
+    text-align: center;
+}
+/* Near you */
+
+/* Connecting you */
+
+/* Spreding love */
+
+/* Footer */
